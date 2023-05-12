@@ -3,7 +3,12 @@
 <ul>
   <% for company in @companies %>
     <li>
-      <a href="/companies/<%= company["id"] %>" > <%= company["name"] %>
+      <a href="/companies/<%= company["id"] %>"> <%= company["name"] %> </a>
     </li>
   <% end %>
 </ul>
+
+
+<p>
+ <a href="/companies/new.html.erb"> New Company </a>
+</p>
