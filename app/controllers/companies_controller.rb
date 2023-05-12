@@ -27,6 +27,7 @@ class CompaniesController < ApplicationController
   #   # save Company row
     @company.save
   #   # redirect user
+    redirect_to "/companies"
    end
 
   # def edit
